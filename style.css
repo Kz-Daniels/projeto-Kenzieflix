@@ -1,0 +1,44 @@
+body {
+    @font-face {
+        font-family: "ibmp";
+        src: url(IBMPlexSans-MediumItalic.ttf) 
+        format(truetype);
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+main {
+    width: 700px;
+    height: 400px;
+    margin-left: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotype {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    font-size: 32px;
+    text-align: center;
+    font-family: "ibmp";
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
